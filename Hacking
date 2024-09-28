@@ -1,0 +1,11 @@
+import random, os
+from colorama import Fore, Back
+
+os.system("cls||clear")
+
+def screen():
+  numbers = f"{Fore.GREEN}{Back.BLACK}{random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} {random.randint(0,9)} "
+  print(numbers)
+
+while True:
+  screen()
